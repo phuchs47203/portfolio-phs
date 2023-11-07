@@ -7,7 +7,7 @@ const CTA = () => {
             <div className='pflo__cta-content'>
                 <p>Please leave your useful contribution, sincerely !</p>
             </div>
-            <div className='pflo__cta-btn'>
+            <div className='pflo__cta-btn btn-transition'>
                 <button type='button'><a href="#comment">Send Message</a></button>
             </div>
         </div>

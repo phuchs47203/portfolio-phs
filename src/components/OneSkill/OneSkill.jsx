@@ -11,7 +11,7 @@ const OneSkill = ({ imgurl, content }) => {
         <div className='pflo_oneskill'>
             {toggleMenu
                 ? <div className='close-icon'> <VscEyeClosed onClick={() => settoggleMenu(false)} /></div>
-                : <img src={imgurl} alt="logoSkill" onClick={() => settoggleMenu(true)} />
+                : <img src={imgurl} alt="logoSkill" className='scale-up-center' onClick={() => settoggleMenu(true)} />
             }
             {
                 toggleMenu && <div className='background_transparent ' ></div>

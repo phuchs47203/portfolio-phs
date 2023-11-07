@@ -30,9 +30,10 @@ const Navbar = () => {
                     <motion.div
                         whileInView={{ x: [0, 0] }}
                         transition={{ duration: 0.85 }}
+                        className='fall-in-right'
                     >
                         <HiX onClick={() => setToggle(false)} />
-                        <ul>
+                        <ul >
                             {['home', 'about', 'skills', 'portfolio', 'achievement', 'comment', 'contact'].map((item) => (
                                 <li key={item}>
                                     <a href={`#${item}`} onClick={() => setToggle(false)}>

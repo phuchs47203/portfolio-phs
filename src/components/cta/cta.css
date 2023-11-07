@@ -58,6 +58,13 @@
     cursor: pointer;
     text-decoration: none;
 }
+.btn-transition {
+    transition: transform 0.3s ease;
+}
+
+.btn-transition:active {
+    transform: scale(0.7);
+}
 
 @media screen and (max-width:1200px) {
     .pflo__cta {
