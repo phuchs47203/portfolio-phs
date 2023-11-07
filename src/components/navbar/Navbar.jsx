@@ -24,7 +24,10 @@ const Navbar = () => {
                 ))}
             </ul>
             <div className="pflo__navbar-menu">
-                <BiMenu onClick={() => setToggle(true)} />
+                {toggle
+                    ? < BiMenu style={{ 'display':'none'}} onClick={() => setToggle(true)} />
+                    : < BiMenu onClick={() => setToggle(true)} />
+                }
 
                 {toggle && (
                     <motion.div
