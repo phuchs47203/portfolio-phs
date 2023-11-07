@@ -1,0 +1,74 @@
+.pflo__skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pflo__skills-heading h1 {
+    font-family: var(--font-family);
+    text-align: center;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.pflo__skills-heading p {
+    font-family: var(--font-family);
+    color: var(--color-p);
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.pflo__skill-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem 6rem;
+    grid-gap: 4rem;
+
+}
+
+@media screen and (max-width: 990px) {
+    .pflo__skill-container{
+        margin: 3rem;
+    }
+    .pflo__skills{
+        padding: 0 2rem;
+    }
+    .pflo__skills-heading h1 {
+       
+        font-size: 44px;
+        line-height: 54px;
+    }
+    
+    .pflo__skills-heading p {
+        
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    
+}
+@media screen and (max-width: 600px) {
+    .pflo__skills{
+        padding: 1rem;
+    }
+    .pflo__skill-container{
+     margin: 3rem 0rem;   
+    }
+    .pflo__skills-heading h1 {
+       
+        font-size: 32px;
+        line-height: 44px;
+    }
+    
+    .pflo__skills-heading p {
+        
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}

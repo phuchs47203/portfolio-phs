@@ -1,0 +1,149 @@
+body {
+    background: var(--color-bg);
+}
+
+.gradient__bg_bd {
+    background: var(--color-bg);
+}
+
+/* .gradient__bg {
+    background: var(--gradient-bg);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.App {
+    background-color: var(--color-bg);
+    font-family: var(--font-base);
+}
+.section__margin{
+
+}
+.scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line_color {
+    background: var(--liner-color);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+    padding: 0rem 6rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+.bg_about {
+    background: url('../src/assets/bgWhite.png');
+    background-color: rgb(157, 178, 192);
+    /* background-size: auto; */
+    padding: 0 6rem;
+}
+
+@media screen and (max-width: 990px) {
+    .bg_about {
+        padding: 0 4rem;
+    }
+    .section__padding{
+        padding: 0rem 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bg_about {
+        padding: 0 1rem;
+    }
+    .section__padding{
+        padding: 0rem 1rem;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .App {
+        width: 120%;
+    }
+}
+
+/*
+.app__whitebg {
+    background-color: var(--white-color);
+}
+
+.app__primarybg {
+    background-color: var(--primary-color);
+}
+
+.app__container {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.app__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__wrapper {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    padding: 4rem 2rem;
+
+    @media screen and (max-width: 450px) {
+        padding: 4rem 1rem 2rem;
+    }
+} */
+
+.p-text {
+    font-size: 0.8rem;
+    text-align: left;
+    color: var(--gray-color);
+    line-height: 1.5;
+
+    @media screen and (min-width: 2000px) {
+        font-size: 1.75rem;
+    }
+}

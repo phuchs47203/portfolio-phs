@@ -1,0 +1,129 @@
+.pflo__pflo-article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: rgb(240, 232, 211);
+    border-radius: 5%;
+    border: 1px solid rgb(240, 232, 211);
+}
+
+.pflo__pflo-article-image {
+    width: 100%;
+    height: 100%;
+    background: rgb(156, 224, 236);
+    /* background: none; */
+}
+
+.pflo__pflo-article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pflo__pflo-article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    height: 100%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+
+.pflo__pflo-article-content h3 {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    color: rgb(90, 65, 65);
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+}
+
+.pflo__pflo-article-content h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgb(199, 105, 96);
+    margin-bottom: 0.5rem;
+    word-spacing: -0.04rem;
+    height: 50px;
+}
+
+.pflo__pflo-article-content p {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(90, 65, 65);
+    padding: 0;
+    font-weight: 200;
+    margin-top: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 150px;
+
+}
+
+.pflo__pflo-article-content-links {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* z-index: 6;
+    background: none; */
+    margin-bottom: 0.5rem;
+    grid-gap: 1rem;
+    margin-right: 1rem;
+}
+
+.pflo__pflo-article-content-links svg {
+    width: 100%;
+    height: 40px;
+    object-fit: contain;
+    margin: 0.5rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .pflo__pflo-article-content h2 {
+        height: fit-content;
+    }
+
+    .pflo__pflo-article-content p {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .pflo__pflo-article-content h3 {
+        font-size: 10px;
+    }
+
+    .pflo__pflo-article-content h2 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 0;
+    }
+
+    .pflo__pflo-article-content p {
+        font-size: 16px;
+        margin-top: 0.5rem;
+        text-align: justify;
+    }
+
+    .pflo__pflo-article-content-links {
+        grid-gap: 0rem;
+    }
+
+    .pflo__pflo-article-content-links svg {
+        width: 100%;
+        height: 20px;
+        object-fit: contain;
+        margin: 0.5rem;
+    }
+}

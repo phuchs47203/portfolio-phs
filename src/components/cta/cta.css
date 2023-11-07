@@ -1,0 +1,103 @@
+/* .pflo__cta_app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} */
+
+.pflo__cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid white;
+    align-items: center;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    background: var(--gradient-bg);
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.pflo__cta-content p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: rgb(255, 245, 211);
+
+}
+
+.pflo__cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+
+}
+
+.pflo__cta-btn button {
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 40px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.pflo__cta-btn button a {
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1200px) {
+    .pflo__cta {
+        flex-direction: column;
+    }
+
+    .pflo__cta-btn {
+        margin: 1rem;
+    }
+
+}
+
+@media screen and (max-width:990px) {
+    .pflo__cta-content p {
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .pflo__cta {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .pflo__cta {
+        padding: 1rem;
+        margin-top: 8rem;
+    }
+
+    .pflo__cta-content p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+        line-height: 26px;
+    }
+
+    .pflo__cta-btn button {
+        font-size: 16px;
+        line-height: 28px;
+
+    }
+}
