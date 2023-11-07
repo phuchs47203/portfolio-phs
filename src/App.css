@@ -66,23 +66,25 @@ body {
         transform: translateX(0);
     }
 }
+
 .fall-in-right {
     opacity: 0;
     transform: translateX(100%);
     animation: fallInRight 0.4s ease-in forwards;
-    }
-    
-    @keyframes fallInRight {
+}
+
+@keyframes fallInRight {
     0% {
-    opacity: 0;
-    transform: translateX(100%);
+        opacity: 0;
+        transform: translateX(100%);
     }
-    
+
     100% {
-    opacity: 1;
-    transform: translateX(0);
+        opacity: 1;
+        transform: translateX(0);
     }
-    }
+}
+
 .gradient__text {
     background: var(--gradient-text);
     background-clip: text;

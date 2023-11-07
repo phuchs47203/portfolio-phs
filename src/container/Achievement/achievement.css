@@ -16,8 +16,8 @@
 
 .pflo__achiev-heading h1 {
     font-family: var(--font-family);
-    font-size: 54px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 72px;
     margin-bottom: 1rem;
 }
 
@@ -27,16 +27,18 @@
     object-fit: contain;
     color: rgb(252, 103, 69);
 }
-.pflo__achiev-content{
+
+.pflo__achiev-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 990px) {
     .pflo__achiev-heading h1 {
         font-size: 40px;
-        line-height: 54px;
+        line-height: 52px;
     }
 }
 
@@ -49,12 +51,15 @@
     .pflo__achiev {
         margin: 3rem 0rem;
     }
+
+    .pflo__achiev-heading h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
 }
 
 @media screen and (max-width:450px) {
-    .pflo__achiev-heading h1 {
-        font-size: 32px;
-    }
+
 
 
     .pflo__achiev-heading {

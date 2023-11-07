@@ -18,6 +18,8 @@
     text-align: center;
     font-family: var(--font-family);
     margin-bottom: 2rem;
+    font-size: 30px;
+    line-height: 40px;
 }
 
 .pflo__footer-content {
@@ -104,6 +106,11 @@ grd
     .pflo__footer {
         padding: 1rem 0.5rem;
         padding-bottom: 0rem;
+    }
+
+    .pflo__footer-heading h1 {
+        font-size: 26px;
+        line-height: 32px;
     }
 
     .pflo__footer-content_link p {

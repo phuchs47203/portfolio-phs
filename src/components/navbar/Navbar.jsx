@@ -3,7 +3,6 @@ import './navbar.scss';
 import logo from '../../assets/phuc-logo-removebg-preview.png'
 import { HiX } from 'react-icons/hi';
 import { BiMenu } from 'react-icons/bi';
-import { motion } from 'framer-motion';
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
@@ -25,16 +24,12 @@ const Navbar = () => {
             </ul>
             <div className="pflo__navbar-menu">
                 {toggle
-                    ? < BiMenu style={{ 'display':'none'}} onClick={() => setToggle(true)} />
+                    ? < BiMenu style={{ 'display': 'none' }} onClick={() => setToggle(true)} />
                     : < BiMenu onClick={() => setToggle(true)} />
                 }
 
                 {toggle && (
-                    <motion.div
-                        whileInView={{ x: [0, 0] }}
-                        transition={{ duration: 0.85 }}
-                        className='fall-in-right'
-                    >
+                    <div className='fall-in-right'>
                         <HiX onClick={() => setToggle(false)} />
                         <ul >
                             {['home', 'about', 'skills', 'portfolio', 'achievement', 'comment', 'contact'].map((item) => (
@@ -45,7 +40,8 @@ const Navbar = () => {
                                 </li>
                             ))}
                         </ul>
-                    </motion.div>
+                    </div>
+
                 )}
             </div>
         </nav>

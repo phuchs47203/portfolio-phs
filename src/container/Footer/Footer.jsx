@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className='pflo__footer-content-groupA'>
                     <div className='pflo__footer-content_link'>
                         <ImMail />
-                        <a href='mailto:21522479@mg.uit.edu.vn'>21522479@mg.uit.edu.vn</a>
+                        <a href='mailto:21522479@gm.uit.edu.vn'>21522479@gm.uit.edu.vn</a>
                     </div>
                     <div className='pflo__footer-content_link'>
                         <ImMail />

@@ -13,9 +13,9 @@
 
 .pflo__portfolio-heading h1 {
     font-family: var(--font-family);
-    font-size: 60px;
-    font-weight: 800;
-    line-height: 75px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 72px;
     letter-spacing: 0.04rem;
 }
 
@@ -49,6 +49,7 @@
 @media screen and (max-width:1000px) {
     .pflo__portfolio-heading h1 {
         font-size: 40px;
+        line-height: 52px;
     }
 
     .pflo__portfolio-heading p {
@@ -62,8 +63,8 @@
     }
 
     .pflo__portfolio-heading h1 {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 42px;
     }
 
     .pflo__portfolio-heading p {
