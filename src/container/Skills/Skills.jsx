@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import './skills.css';
 import { imagess } from '../../constants';
-import { HiX } from 'react-icons/hi';
-import { motion } from 'framer-motion';
 import { OneSkill } from '../../components';
 const skillData = [
     {
