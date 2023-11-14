@@ -16,6 +16,7 @@ import postman from '../assets/postman.png';
 import reacticon from '../assets/reacticon.png';
 import springboot from '../assets/springbooteditlast.png';
 import sqlserver from '../assets/sqlserver.png';
+import xampp from '../assets/xampp.png';
 import oop from '../assets/oop.png';
 import bgwhite2 from '../assets/f8f8ff.png';
 import pfloimg from '../assets/portflioedit.jpg';
@@ -56,6 +57,7 @@ export default {
     reacticon,
     springboot,
     sqlserver,
+    xampp,
     oop,
     bgwhite2,
     appThuVien,

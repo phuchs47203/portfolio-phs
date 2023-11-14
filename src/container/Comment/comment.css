@@ -33,7 +33,7 @@
     font-size: 16px;
     width: 100%;
     font-family: var(--font-family);
-    border: 1.5px solid black;
+    border: 0.2px solid rgb(192, 192, 192);
     outline: none;
 }
 
@@ -44,7 +44,8 @@
     font-family: var(--font-family);
     padding: 1rem;
     margin-bottom: 1rem;
-    border: 1.5px solid black;
+    border: 0.2px solid rgb(192, 192, 192);
+    outline: none;
 }
 
 .pflo__comment-btn {

@@ -16,16 +16,37 @@ const skillData = [
         content: 'Can I use MVC model in Application Programming, using Spring boot for Java Backend'
     },
     {
+        imgURL: imagess.hibernate,
+        content: 'I use Hibernate to connect and process Database.'
+    },
+    {
         imgURL: imagess.laravel,
         content: 'Laravel 10.x framework in php'
+    },
+    {
+        imgURL: imagess.xampp,
+        content: 'Xampp'
+    },
+    {
+        imgURL: imagess.oracle,
+        content: 'Ditrbuted Database, Connect Computer In Ditributed system. I can use Oracle to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database.'
     },
     {
         imgURL: imagess.redis,
         content: 'Redis with ditributed database'
     },
+
     {
-        imgURL: imagess.hibernate,
-        content: 'I use Hibernate to connect and process Database.'
+        imgURL: imagess.mysql,
+        content: 'I can use MySQL to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database'
+    },
+    {
+        imgURL: imagess.sqlserver,
+        content: 'I can use SQL Server to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ...'
+    },
+    {
+        imgURL: imagess.reacticon,
+        content: 'I use ReactJS to create Frontend websites.'
     },
     {
         imgURL: imagess.html,
@@ -34,22 +55,6 @@ const skillData = [
     {
         imgURL: imagess.css,
         content: 'I designed some websites using CSS. You can find at Portfolio.'
-    },
-    {
-        imgURL: imagess.reacticon,
-        content: 'I use ReactJS to create Frontend websites.'
-    },
-    {
-        imgURL: imagess.oracle,
-        content: 'I can use Oracle to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database.'
-    },
-    {
-        imgURL: imagess.mysql,
-        content: 'I can use MySQL to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database'
-    },
-    {
-        imgURL: imagess.sqlserver,
-        content: 'I can use SQL Server to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ...'
     },
     {
         imgURL: imagess.git,

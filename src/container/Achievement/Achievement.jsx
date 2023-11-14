@@ -11,7 +11,7 @@ const achieDATA = [
     },
     {
         logourl: imagess.scholarship,
-        text: 'I received Two Scholarship Promote learning at UIT University (Excellent type 14.400.000 VND and 12.000.000 VND).',
+        text: 'I received Three Scholarship Promote learning at UIT University (Excellent type 14.400.000 VNĐ, 13.200.000 VNĐ and 12.000.000 VNĐ).',
         linkDemonstrate: 'https://drive.google.com/file/d/1H1ZkCTncpywCk26wi_Ea25rN8gLWOEn1/view'
     },
     {
