@@ -48,16 +48,16 @@ const skillData = [
         imgURL: imagess.reacticon,
         content: 'I use ReactJS to create Frontend websites.'
     },
-
+    {
+        imgURL: imagess.oop,
+        content: 'Use OOP in C++, Java: Inheritance, Encapsulation, Polymorphism and Abstraction to design aplication'
+    },
     {
         imgURL: imagess.git,
         content: 'I use Git to manage Programming projects (push code to github, clone code from github, config, ...)'
     },
 
-    {
-        imgURL: imagess.oop,
-        content: 'Use OOP in C++, Java: Inheritance, Encapsulation, Polymorphism and Abstraction to design aplication'
-    },
+
     {
         imgURL: imagess.dsa,
         content: 'I know and I can code Sorting Algorithms, Tree Structures, Linked Lists, Hash Tables.'
