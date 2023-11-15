@@ -30,7 +30,7 @@
 .background_transparent {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
     left: 0;
@@ -68,9 +68,9 @@
 .pflo_oneskill-content p {
     color: rgb(100, 211, 207);
     font-family: var(--font-family);
-    font-size: 20px;
-    line-height: 32px;
-    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
     text-transform: capitalize;
     text-decoration: none;
     padding: 1rem;

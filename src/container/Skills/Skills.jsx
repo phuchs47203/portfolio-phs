@@ -48,6 +48,24 @@ const skillData = [
         imgURL: imagess.reacticon,
         content: 'I use ReactJS to create Frontend websites.'
     },
+
+    {
+        imgURL: imagess.git,
+        content: 'I use Git to manage Programming projects (push code to github, clone code from github, config, ...)'
+    },
+
+    {
+        imgURL: imagess.oop,
+        content: 'Use OOP in C++, Java: Inheritance, Encapsulation, Polymorphism and Abstraction to design aplication'
+    },
+    {
+        imgURL: imagess.dsa,
+        content: 'I know and I can code Sorting Algorithms, Tree Structures, Linked Lists, Hash Tables.'
+    },
+    {
+        imgURL: imagess.postman,
+        content: 'Postman help me check Code in Java Spring Boot programming.'
+    },
     {
         imgURL: imagess.html,
         content: 'I wrote some websites using HTML with css, reactjs and some backend framework '
@@ -55,22 +73,6 @@ const skillData = [
     {
         imgURL: imagess.css,
         content: 'I designed some websites using CSS. You can find at Portfolio.'
-    },
-    {
-        imgURL: imagess.git,
-        content: 'I use Git to manage Programming projects (push code to github, clone code from github, config, ...)'
-    },
-    {
-        imgURL: imagess.postman,
-        content: 'Postman help me check Code in Java Spring Boot programming.'
-    },
-    {
-        imgURL: imagess.oop,
-        content: 'I can use OOP in C++, Java. I have knowledge of Inheritance, Encapsulation, Polymorphism and Abstraction to design aplication'
-    },
-    {
-        imgURL: imagess.dsa,
-        content: 'I know and I can code Sorting Algorithms, Tree Structures, Linked Lists, Hash Tables.'
     }
 ];
 

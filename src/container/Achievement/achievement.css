@@ -32,7 +32,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    grid-gap: 2.5rem;
 }
+
 
 @media screen and (max-width: 990px) {
     .pflo__achiev-heading h1 {
@@ -50,6 +52,9 @@
     .pflo__achiev-heading h1 {
         font-size: 30px;
         line-height: 42px;
+    }
+    .pflo__achiev-content {
+        grid-gap: 2rem;
     }
 }
 

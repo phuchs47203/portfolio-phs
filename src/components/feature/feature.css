@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-
-    margin-bottom: 3rem;
 }
 
 .pflo__feature-title {
@@ -74,8 +72,9 @@
     }
 
     .pflo__feature-content p {
-        font-size: 16px;
-        line-height: 28px;
+        font-size: 15.5px;
+        letter-spacing: -0.02rem;
+        line-height: 24px;
         font-weight: 300;
     }
 
@@ -84,5 +83,3 @@
         height: 50px;
     }
 }
-
-@media screen and (max-width: 400px) {}
