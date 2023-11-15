@@ -3,7 +3,32 @@ import './portfolio.css';
 import images from '../../constants/images';
 import { Artical } from '../../components';
 const projectDATA = [
-
+    {
+        urlimg: images.helmerts_fe,
+        date: 'Oct 15, 2023',
+        title: 'E-COMMERCE - FrontEnd - In Process',
+        description: 'ReactJS, CSS, Javascript',
+        srccode: 'https://github.com/phuchs47203/helmerts-ec-phs',
+        democode: 'https://drive.google.com/file/d/1GN0pAjsYqGvt2MYgaMsOZn_OP2quZdOY/view?usp=sharing',
+        commen: '#comment'
+    }, {
+        urlimg: images.helmerts_be,
+        date: 'Oct 15, 2023',
+        title: 'E-COMMERCE - BackEnd - In Process',
+        description: 'Laravel Framework-PHP, Xampp-MySQL',
+        srccode: 'https://github.com/phuchs47203/helmerts-phs-ec-be',
+        democode: 'https://drive.google.com/file/d/1GN0pAjsYqGvt2MYgaMsOZn_OP2quZdOY/view?usp=sharing',
+        commen: '#comment'
+    },
+    {
+        urlimg: images.login_security,
+        date: 'Aug 28, 2023',
+        title: 'Spring Security with Login and Registration - BackEnd - In Process',
+        description: 'Springboot, Spring Security, MySQL, Hibernate. Authentication and Authorization to Java applications. Complete Registration Flow with Email Verification, Resend Email Verification Code, Forgot Password, Change Password, and Login Functionality',
+        srccode: 'https://github.com/phuchs47203/spring_security_client_basic_token.git',
+        democode: '',
+        commen: '#comment'
+    },
     {
         urlimg: images.employee_fe,
         date: 'Aug 20, 2023',
@@ -22,15 +47,7 @@ const projectDATA = [
         democode: '',
         commen: '#comment'
     },
-    {
-        urlimg: images.login_security,
-        date: 'Aug 28, 2023',
-        title: 'Spring Security with Login and Registration - BackEnd - In Process',
-        description: 'Springboot, Spring Security, MySQL, Hibernate. Authentication and Authorization to Java applications. Complete Registration Flow with Email Verification, Resend Email Verification Code, Forgot Password, Change Password, and Login Functionality',
-        srccode: 'https://github.com/phuchs47203/spring_security_client_basic_token.git',
-        democode: '',
-        commen: '#comment'
-    },
+
     {
         urlimg: images.pfloimg,
         date: 'Aug 04, 2023',

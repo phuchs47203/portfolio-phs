@@ -35,6 +35,9 @@ import employee_be from '../assets/img_employee_bakend.jpg';
 import login_security from '../assets/security_be_token_login.jpg';
 import laravel from '../assets/laravel.png';
 import redis from '../assets/redis.png';
+import helmerts_fe from '../assets/helmerts-ecommerce.png';
+import helmerts_be from '../assets/helmerts_be.jpg';
+
 export default {
     score,
     scholarship,
@@ -72,5 +75,7 @@ export default {
     employee_be,
     login_security,
     laravel,
-    redis
+    redis,
+    helmerts_fe,
+    helmerts_be
 }

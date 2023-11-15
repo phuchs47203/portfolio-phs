@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 6rem 0rem;
 }
 
 .pflo__achiev-heading {
@@ -11,7 +10,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .pflo__achiev-heading h1 {
@@ -48,10 +47,6 @@
         height: 70px;
     }
 
-    .pflo__achiev {
-        margin: 3rem 0rem;
-    }
-
     .pflo__achiev-heading h1 {
         font-size: 30px;
         line-height: 42px;
@@ -60,11 +55,9 @@
 
 @media screen and (max-width:450px) {
 
-
-
     .pflo__achiev-heading {
         margin-top: 0;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 }
 

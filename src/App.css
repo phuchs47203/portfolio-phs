@@ -103,6 +103,13 @@ body {
     padding: 0rem 6rem;
 }
 
+.grid__gap {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5rem;
+    margin: 3rem 0rem;
+}
+
 .section__margin {
     margin: 4rem 6rem;
 }
