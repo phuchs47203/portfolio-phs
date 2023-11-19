@@ -13,24 +13,25 @@ const skillData = [
     },
     {
         imgURL: imagess.springboot,
-        content: 'Can I use MVC model in Application Programming, using Spring boot for Java Backend'
+        content: 'Using Spring boot for Java Backend, create Restfull API, authorization and authentication. I can use MVC model in Application Programming'
     },
     {
         imgURL: imagess.hibernate,
-        content: 'I use Hibernate to connect and process Database.'
+        content: 'I use Hibernate to connect and process Database in restfull API'
     },
     {
         imgURL: imagess.laravel,
-        content: 'Laravel 10.x framework in php'
-    },
-    {
-        imgURL: imagess.xampp,
-        content: 'Xampp'
+        content: 'Laravel 10.x framework in php:  create Restfull API, authorization and authentication'
     },
     {
         imgURL: imagess.oracle,
-        content: 'Ditrbuted Database, Connect Computer In Ditributed system. I can use Oracle to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database.'
+        content: 'Ditrbuted Database on the separately computers , Connect Computer In Ditributed system. I can use Oracle to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database.'
     },
+    {
+        imgURL: imagess.xampp,
+        content: 'Xampp: assit php and mysql, atuhorization in database'
+    },
+
     // {
     //     imgURL: imagess.redis,
     //     content: 'Redis with ditributed database'
