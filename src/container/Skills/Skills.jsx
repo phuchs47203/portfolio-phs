@@ -31,10 +31,10 @@ const skillData = [
         imgURL: imagess.oracle,
         content: 'Ditrbuted Database, Connect Computer In Ditributed system. I can use Oracle to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database.'
     },
-    {
-        imgURL: imagess.redis,
-        content: 'Redis with ditributed database'
-    },
+    // {
+    //     imgURL: imagess.redis,
+    //     content: 'Redis with ditributed database'
+    // },
 
     {
         imgURL: imagess.mysql,

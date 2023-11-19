@@ -11,7 +11,8 @@ const projectDATA = [
         srccode: 'https://github.com/phuchs47203/helmerts-ec-phs',
         democode: 'https://drive.google.com/file/d/1GN0pAjsYqGvt2MYgaMsOZn_OP2quZdOY/view?usp=sharing',
         commen: '#comment'
-    }, {
+    },
+    {
         urlimg: images.helmerts_be,
         date: 'Oct 15, 2023',
         title: 'E-COMMERCE - BackEnd - In Process',
@@ -96,7 +97,7 @@ const projectDATA = [
     {
         urlimg: images.appThuVien,
         date: 'Jun 08, 2023',
-        title: 'Library Management',
+        title: 'Library Management - Finished',
         description: 'Project of Library Management System: JAVA, System analysis and design, Built Database, User Authorization, JDBC, MVC famework',
         srccode: 'https://github.com/phuchs47203/App_ThuVien.git',
         democode: '',
