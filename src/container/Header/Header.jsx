@@ -3,6 +3,8 @@ import './header.css';
 import imglogo from '../../assets/aboutmecut55.jpg';
 import { ImLinkedin } from 'react-icons/im';
 import { IoLogoGithub } from 'react-icons/io';
+import { IoLogoYoutube } from "react-icons/io";
+
 const Header = () => {
     return (
         <div className='pflo__header' id='home'>
@@ -15,6 +17,9 @@ const Header = () => {
                     </a>
                     <a href="https://github.com/phuchs47203">
                         <IoLogoGithub />
+                    </a>
+                    <a href="https://www.youtube.com/@codewithphs6702">
+                        <IoLogoYoutube />
                     </a>
                 </div>
             </div>

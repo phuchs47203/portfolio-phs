@@ -21,30 +21,29 @@ const skillData = [
     },
     {
         imgURL: imagess.laravel,
-        content: 'Laravel 10.x framework in php:  create Restfull API, authorization and authentication'
+        content: 'Laravel 10.x framework in php:  create Restfull API, authorization and authentication in XAMPP'
     },
     {
         imgURL: imagess.oracle,
-        content: 'Ditrbuted Database on the separately computers , Connect Computer In Ditributed system. I can use Oracle to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database.'
+        content: 'I can deploy a distributed database Oracle, Ditrbuted Database on the separately computers , Connect Computer In Ditributed system. I can use Oracle to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database.'
     },
     {
-        imgURL: imagess.xampp,
-        content: 'Xampp: assit php and mysql, atuhorization in database'
-    },
-
-    // {
-    //     imgURL: imagess.redis,
-    //     content: 'Redis with ditributed database'
-    // },
-
-    {
-        imgURL: imagess.mysql,
-        content: 'I can use MySQL to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database'
+        imgURL: imagess.redis,
+        content: 'I can deploy a distributed database in Redis DBMS: Redis Replication, Redis Sentinel,...'
     },
     {
         imgURL: imagess.sqlserver,
-        content: 'I can use SQL Server to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ...'
+        content: 'I can deploy a distributed database in Microsoft SQL Server, use SQL Server to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ...'
     },
+    // {
+    //     imgURL: imagess.xampp,
+    //     content: 'Xampp: assit php and mysql, atuhorization in database'
+    // },
+    {
+        imgURL: imagess.mysql,
+        content: 'I can use MySQL to manage the Database in XAMPP, MySQL Workbench. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database'
+    },
+
     {
         imgURL: imagess.reacticon,
         content: 'I use ReactJS to create Frontend websites.'

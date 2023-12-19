@@ -5,6 +5,8 @@ import { IoLogoGithub } from 'react-icons/io';
 import { ImMail } from 'react-icons/im';
 import { BsPhoneVibrate } from 'react-icons/bs';
 import { GiPositionMarker } from 'react-icons/gi';
+import { IoLogoYoutube } from "react-icons/io";
+
 const Footer = () => {
     return (
         <div className='pflo__footer' id='contact'>
@@ -23,11 +25,11 @@ const Footer = () => {
                     </div>
                     <div className='pflo__footer-content_link'>
                         <BsPhoneVibrate />
-                        <p>0344 855 827</p>
+                        <a href='tel:0344855827'>0344 855 827</a>
                     </div>
                     <div className='pflo__footer-content_link'>
                         <GiPositionMarker />
-                        <p>Linh Trung Ward, Thu Duc District, Ho Chi Minh City</p>
+                        <a href="https://maps.app.goo.gl/QBio5WW3rPrheHwm8">Linh Trung Ward, Thu Duc District, Ho Chi Minh City</a>
                     </div>
                 </div>
                 <div className='pflo__footer-content-groupB'>
@@ -37,6 +39,9 @@ const Footer = () => {
 
                     <a href="https://github.com/phuchs47203">
                         <IoLogoGithub />
+                    </a>
+                    <a href="https://www.youtube.com/@codewithphs6702">
+                        <IoLogoYoutube />
                     </a>
                 </div>
             </div>

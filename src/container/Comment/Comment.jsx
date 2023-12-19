@@ -59,7 +59,7 @@ const Comment = () => {
 
         <div className='pflo__comment' id='comment'>
             <div className='pflo__comment-heading'>
-                <h1 className='gradient__text'>Enter your comment right here !</h1>
+                <h1 className='gradient__text'>Enter your comment right here!</h1>
             </div>
             <div className='pflo__comment-content'>
                 <input type="email"
