@@ -46,7 +46,7 @@ const skillData = [
 
     {
         imgURL: imagess.reacticon,
-        content: 'I use ReactJS to create Frontend websites.'
+        content: 'I use ReactJS to create Frontend websites with HTML, CSS.'
     },
     {
         imgURL: imagess.oop,
@@ -56,8 +56,6 @@ const skillData = [
         imgURL: imagess.git,
         content: 'I use Git to manage Programming projects (push code to github, clone code from github, config, ...)'
     },
-
-
     {
         imgURL: imagess.dsa,
         content: 'I know and I can code Sorting Algorithms, Tree Structures, Linked Lists, Hash Tables.'
@@ -66,14 +64,14 @@ const skillData = [
         imgURL: imagess.postman,
         content: 'Postman help me check Code in Java Spring Boot programming.'
     },
-    {
-        imgURL: imagess.html,
-        content: 'I wrote some websites using HTML with css, reactjs and some backend framework '
-    },
-    {
-        imgURL: imagess.css,
-        content: 'I designed some websites using CSS. You can find at Portfolio.'
-    }
+    // {
+    //     imgURL: imagess.html,
+    //     content: 'I wrote some websites using HTML with css, reactjs and some backend framework '
+    // },
+    // {
+    //     imgURL: imagess.css,
+    //     content: 'I designed some websites using CSS. You can find at Portfolio.'
+    // }
 ];
 
 const Skills = () => {
