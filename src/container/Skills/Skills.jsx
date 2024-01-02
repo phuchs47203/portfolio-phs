@@ -29,7 +29,7 @@ const skillData = [
     },
     {
         imgURL: imagess.redis,
-        content: 'I can deploy a distributed database in Redis DBMS: Redis Replication, Redis Sentinel,...'
+        content: 'I can deploy a distributed database in Redis DBMS: Redis Replication, Redis Sentinel, Redis Cluster.'
     },
     {
         imgURL: imagess.sqlserver,
