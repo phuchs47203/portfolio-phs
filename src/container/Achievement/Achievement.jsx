@@ -7,17 +7,17 @@ const achieDATA = [
     {
         logourl: imagess.score,
         text: 'Medium score at UIT University: 8.9 (Four consecutive semester). Click icon to see details',
-        linkDemonstrate: 'https://drive.google.com/file/d/1UehIe8UTqUOea71h4W8kBtksfx3GM95p/view?usp=sharing',
+        linkDemonstrate: 'https://drive.google.com/file/d/1rbe1vNDUKBPre7xBGVBzImYPN98AMrCR/view?usp=sharing',
     },
     {
         logourl: imagess.scholarship,
         text: 'I received Three Scholarship Promote learning at UIT University (Excellent type 14.400.000 VNĐ, 13.200.000 VNĐ and 12.000.000 VNĐ).',
-        linkDemonstrate: 'https://drive.google.com/file/d/1UehIe8UTqUOea71h4W8kBtksfx3GM95p/view?usp=sharing'
+        linkDemonstrate: 'https://drive.google.com/file/d/1rbe1vNDUKBPre7xBGVBzImYPN98AMrCR/view?usp=sharing'
     },
     {
         logourl: imagess.toeic,
         text: 'I have TOEIC Certificate 2 skills Listening - Reading (405 - 26/07/2022).',
-        linkDemonstrate: 'https://drive.google.com/file/d/1UehIe8UTqUOea71h4W8kBtksfx3GM95p/view?usp=sharing'
+        linkDemonstrate: 'https://drive.google.com/file/d/1rbe1vNDUKBPre7xBGVBzImYPN98AMrCR/view?usp=sharing'
     }
 
 ]
