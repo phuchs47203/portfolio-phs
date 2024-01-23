@@ -1,8 +1,3 @@
-#home {
-    position: relative;
-    margin-top: 0px;
-}
-
 .pflo__header {
     display: flex;
     flex-direction: row;
@@ -102,6 +97,9 @@ gg */
 }
 
 @media screen and (max-width: 900px) {
+    .pflo__header {
+        padding-top: 6rem;
+    }
     .pflo__header-logo {
         align-items: flex-start;
     }
@@ -141,7 +139,7 @@ gg */
     .pflo__header {
         flex-direction: column;
         height: 100%;
-        padding-top: 8rem;
+        padding-top: 6rem;
         margin-bottom: 2rem;
     }
 }
