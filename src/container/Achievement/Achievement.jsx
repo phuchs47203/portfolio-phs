@@ -6,8 +6,8 @@ import { FaAward } from 'react-icons/fa';
 const achieDATA = [
     {
         logourl: imagess.score,
-        text: 'Medium score at UIT University: 8.9 (Four consecutive semester). Click icon to see details',
-        linkDemonstrate: 'https://drive.google.com/file/d/1rbe1vNDUKBPre7xBGVBzImYPN98AMrCR/view?usp=sharing',
+        text: 'Medium score at UIT University: 8.81/10 (Five consecutive semesters). Click icon to see details',
+        linkDemonstrate: 'https://drive.google.com/file/d/1mhUAVZcDfL5miRptiyXnEOHD0uhG6-D_/view?usp=sharing',
     },
     {
         logourl: imagess.scholarship,
