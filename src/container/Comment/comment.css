@@ -77,6 +77,7 @@
     color: rgb(242, 95, 95);
     margin-top: -0.3rem;
     margin-bottom: 0.8rem;
+    padding-left: 0.5rem;
 
 }
 
@@ -114,4 +115,25 @@
     .pflo__comment-content {
         width: fit-content;
     }
+
+    .pflo__comment-content input {
+        padding: 1rem;
+        font-size: 14px;
+    }
+
+    .pflo__comment-content textarea {
+        font-size: 14px;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .pflo__comment-btn button {
+        height: 40px;
+        line-height: 24px;
+        border-radius: 1rem;
+        font-size: 16px;
+        min-width: 100px;
+    }
+
+
 }

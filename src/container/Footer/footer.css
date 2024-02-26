@@ -84,7 +84,7 @@ grd
 .copy-right h6 {
     font-family: var(--font-family);
     color: aliceblue;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 100;
 }
 
@@ -122,6 +122,6 @@ grd
     }
 
     .copy-right h6 {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
