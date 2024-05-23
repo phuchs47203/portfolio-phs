@@ -157,12 +157,12 @@ body {
 }
 
 .bg_about {
-    background: url('../src/assets/bgWhite.png');
+    /* background: url('../src/assets/bgWhite.png'); */
     /* background-color: rgb(157, 178, 192); */
     /* background-size: auto; */
     
     padding: 0 6rem;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     display: flex;
     flex-direction: column;
 }

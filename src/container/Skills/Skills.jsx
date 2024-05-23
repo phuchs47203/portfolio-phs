@@ -12,13 +12,10 @@ const skillData = [
         content: 'Using Spring boot for Java Backend, create Restfull API, authorization and authentication. I can use MVC model in Application Programming'
     },
     {
-        imgURL: imagess.python,
-        content: 'Using python for marchine learning and deep learning algorithm'
+        imgURL: imagess.laravel,
+        content: 'Laravel 10.x framework in php:  create Restfull API, authorization and authentication in XAMPP'
     },
-    {
-        imgURL: imagess.cplusplus,
-        content: 'I can write C++ code fluently and use it in complicate algorithms'
-    },
+    
     
     {
         imgURL: imagess.hibernate,
@@ -28,10 +25,7 @@ const skillData = [
         imgURL: imagess.power_bi,
         content: 'I use Power BI Desktop for Data analyst and perform Data Visulization'
     },
-    {
-        imgURL: imagess.laravel,
-        content: 'Laravel 10.x framework in php:  create Restfull API, authorization and authentication in XAMPP'
-    },
+    
     {
         imgURL: imagess.oracle,
         content: 'I can deploy a distributed database Oracle, Ditrbuted Database on the separately computers , Connect Computer In Ditributed system. I can use Oracle to manage the Database. I can write SQL from basic to advanced, create Trigger, Function, Procedure, ... I know the user authorization in the database.'
@@ -55,6 +49,14 @@ const skillData = [
     {
         imgURL: imagess.reacticon,
         content: 'I use ReactJS to create Frontend websites with HTML, CSS.'
+    },
+    {
+        imgURL: imagess.python,
+        content: 'Using python for marchine learning and deep learning algorithm'
+    },
+    {
+        imgURL: imagess.cplusplus,
+        content: 'I can write C++ code fluently and use it in complicate algorithms'
     },
     // {
     //     imgURL: imagess.oop,
@@ -87,7 +89,7 @@ const Skills = () => {
     return (
         <div className='pflo__skills ' id='skills'>
             <div className='pflo__skills-heading'>
-                <h1 className='gradient__text'>SKILLS</h1>
+                <h1 className='gradient__text'>Skills</h1>
                 <p className='margin__p'>These are all my skills which I learned in college and taught myself (Click icon to see details)</p>
             </div>
             <div className='pflo__skill-container'>

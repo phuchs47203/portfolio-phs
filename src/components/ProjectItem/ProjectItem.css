@@ -137,9 +137,8 @@
     /* padding-bottom: 0.45rem; */
     border-radius: 0.2rem;
     
-    background-color: rgb(173, 214, 214);
     border: 1px solid  rgb(173, 214, 187);
-
+    background-color: rgb(191, 220, 246);
 }
 .pflo-project_item-link-next_page-box:hover p,
 .pflo-project_item-link-next_page-box:hover svg{
@@ -200,6 +199,9 @@
         font-size: 15px;
         font-weight: 600;
         text-transform: capitalize;
+    }
+    .pflo-project_item{      
+        margin-left: 0.7rem;
     }
     
 }

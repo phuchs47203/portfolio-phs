@@ -187,7 +187,7 @@ const Portfolio = () => {
         // </div>
         <div className='pflo__portfolio' id='portfolio'>
             <div className='pflo__portfolio-heading'>
-                <h1 className='gradient__text'>PORTFOLIO</h1>
+                <h1 className='gradient__text'>Portfolio</h1>
                 <p>Each project represents my development</p>
             </div>
             <div className='pflo__portfolio-Box'>

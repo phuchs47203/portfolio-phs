@@ -21,7 +21,7 @@ const Comment = () => {
         e.preventDefault();
 
         if (!comment_user.email) {
-            setErrorMessageemail('Email Address cannot be empty');
+            setErrorMessageemail('Email address cannot be empty');
             settextSuccessfull("");
 
             return;

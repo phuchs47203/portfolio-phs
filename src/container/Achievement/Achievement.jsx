@@ -26,7 +26,7 @@ const Achievement = () => {
     return (
         <div className='pflo__achiev' id='achievement'>
             <div className='pflo__achiev-heading'>
-                <h1 className='gradient__text'>ACHIEVEMENT</h1>
+                <h1 className='gradient__text'>Achievement</h1>
                 <FaAward />
             </div>
             <div className='pflo__achiev-content'>

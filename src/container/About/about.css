@@ -3,7 +3,8 @@
     flex-direction: row;
     justify-content: center;
     margin-bottom: 2rem;
-    height: 40vh;
+    width: 100%;
+    /* height: 40vh; */
 }
 
 
@@ -51,7 +52,8 @@
 }
 
 .pflo__about-content div a img {
-    height: 50px;
+    height: 35px;
+    width: auto;
 }
 
 .pflo__about-content p {
@@ -94,7 +96,7 @@
     }
 
     .pflo__about {
-        height: 50vh;
+        /* height: 50vh; */
         margin-top: 0rem;
         margin-bottom: 0rem;
     }
@@ -106,7 +108,7 @@
 @media screen and (max-width:600px) {
     .pflo__about {
         /* margin: 0 1rem 0 1rem; */
-        height: fit-content;
+        /* height: fit-content; */
         /* margin: 4rem 0; */
     }
 
@@ -114,6 +116,7 @@
         font-size: 32px;
         line-height: 40px;
         font-weight: 500;
+        margin-bottom: 1rem;
     }
 
     .pflo__about-content div h2 {
@@ -121,13 +124,13 @@
     }
 
     .pflo__about-content div a img {
-        height: 35px;
+        height: 25px;
     }
 
 
     .pflo__about-content p {
         font-size: 16px;
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
         text-align: justify;
     }
 }

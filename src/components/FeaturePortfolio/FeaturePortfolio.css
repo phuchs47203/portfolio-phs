@@ -21,7 +21,7 @@
     font-weight: 500;
     /* color: rgb(97, 107, 197); */
     font-size: 18px;
-
+    color: rgb(191, 220, 246);
 }
 
 .pflo-feature_pflo-content{
@@ -37,6 +37,11 @@
     .pflo-feature_pflo-title{
         font-weight: 400;
         font-size: 15px;
+    }
+    .pflo-feature_pflo-content{
+       
+        padding-left: 0rem;
+        padding-right: 1rem;
     }
 }
 @media screen and (max-width: 600px){
