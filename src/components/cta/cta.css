@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid white;
     align-items: center;
     padding: 2rem 3rem;
     border-radius: 1rem;

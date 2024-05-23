@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className='pflo__footer' id='contact'>
             <div className='pflo__footer-heading'>
-                <h1 className='gradient__text'>CONTACT ME</h1>
+                <h1 className=''>CONTACT ME</h1>
             </div>
             <div className='pflo__footer-content'>
                 <div className='pflo__footer-content-groupA'>

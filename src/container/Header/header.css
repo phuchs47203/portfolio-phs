@@ -28,6 +28,7 @@
     color: var(--color-p);
     margin-bottom: 2rem;
     font-size: 32px;
+    text-align: justify;
 }
 
 .pflo__header-content-links {
@@ -56,8 +57,9 @@
 }
 
 .pflo__header-logo div {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: auto;
+    aspect-ratio: 1/1;
     border-radius: 1rem;
 }
 
@@ -106,7 +108,6 @@ gg */
 
     .pflo__header-logo div {
         width: 300px;
-        height: 300px;
     }
 
     .pflo__header-content h1 {
@@ -133,21 +134,18 @@ gg */
 
     .pflo__header-logo div {
         width: 250px;
-        height: 250px;
     }
 
     .pflo__header {
         flex-direction: column;
         height: 100%;
         padding-top: 6rem;
-        margin-bottom: 2rem;
     }
 }
 
 @media screen and (max-width: 350px) {
     .pflo__header-logo div {
         width: 200px;
-        height: 200px;
     }
 
 }

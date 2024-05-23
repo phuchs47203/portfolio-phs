@@ -1,0 +1,348 @@
+{
+    "porfolios": [
+        {
+            "id": 1,
+            "project_type": 1,
+            "date": "May 17, 2024",
+            "name": "DataCo Smart Supply Chain",
+            "list_icon": [
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "With a data set of more than 180 thousand lines about the supply chain collected by DataCo Global company over 4 years. I analyzed the company's revenue, costs, and profits. I use <span>SSIS</span> techniques to integrate data into SQL Server, using <span>SSAS</span> to build professional data models in Visual Studio. And perform data visualization in <span>Power BI Desktop, Excel</span>. In addition, I also implement the <span>RNN Algorithm</span>  to forecast profits because this is time series data.",
+            "link_git": "https://github.com/phuchs47203/DataCoSmartSupplyChain.git",
+            "video": "https://www.youtube.com/watch?v=jeyHsGTU6kc&list=PLB4JPYoW7acH2bJq89uZdyytLqgcjmfRK&pp=iAQB",
+            "comment": "#comment",
+            "tech_icon": [
+                {
+                    "img_icon": "15_FlPFp7PeDddpDCTsrRnjnaLUdaFS9r"
+                },
+                {
+                    "img_icon": "1Gzn23MSglIptD74wQthivdXAo1NQATYS"
+                },
+                {
+                    "img_icon": "12A9QxKGQAMQlKZP1Eg6b6mOXYcobaliq"
+                },
+                {
+                    "img_icon": "17aRV51FESpjU0bEMiY4NeWDsz6N-bjGZ"
+                },
+                {
+                    "img_icon": "18Guz_0MH1OAxfjMGgZnwK7Ij4yOqkaT7"
+                }
+            ],
+            "details": "https://github.com/phuchs47203/DataCoSmartSupplyChain.git"
+        },
+        
+        {
+            "id": 2,
+            "project_type": 1,
+            "date": "Apr 25, 2024",
+            "name": "Company Sales Data",
+            "list_icon": [
+                {
+                    "iconName": ""
+                },
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "I perform data integration with <span>SSIS</span> into <span>SQL Server</span>, Use <span>SSAS</span> to draw Snowflake schema diagrams, then use <span>MDX queries</span> of type Roll up, Drill Down, Slice, Dice, ... I perform data visualization in <span>Power BI</span> to compare results with visual studio. I use the <span>K-Nearest Neighbors(KNN), Decision Tree</span> algorithm and also use <span>Recurent Neural Network(RNN)</span> algorithm in deep learning to perform <span>data classification</span> and predict class labels.",
+            "link_git": "https://github.com/phuchs47203/CompanySalesData.git",
+            "video": "https://www.youtube.com/watch?v=jeyHsGTU6kc&list=PLB4JPYoW7acH2bJq89uZdyytLqgcjmfRK&pp=iAQB",
+            "comment": "#comment",
+            "tech_icon": [
+                {
+                    "img_icon": "15_FlPFp7PeDddpDCTsrRnjnaLUdaFS9r"
+                },
+                {
+                    "img_icon": "1Gzn23MSglIptD74wQthivdXAo1NQATYS"
+                },
+                {
+                    "img_icon": "17aRV51FESpjU0bEMiY4NeWDsz6N-bjGZ"
+                },
+                {
+                    "img_icon": "18Guz_0MH1OAxfjMGgZnwK7Ij4yOqkaT7"
+                }
+            ],
+            "details": "https://github.com/phuchs47203/CompanySalesData.git"
+        }, 
+        {
+            "id": 3,
+            "project_type": 1,
+            "date": "Feb 25, 2024",
+            "name": "Coffee Sales Order Data",
+            "list_icon": [
+                {
+                    "iconName": ""
+                },
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "I added data from excel to <span>Power BI</span>, and created a <span>Snowflake Schema</span> in it. Then I also perform data visualization.",
+            "link_git": "https://github.com/phuchs47203/CoffeeSaleOrder_Data.git",
+            "video": "https://www.youtube.com/watch?v=jeyHsGTU6kc&list=PLB4JPYoW7acH2bJq89uZdyytLqgcjmfRK&pp=iAQB",
+            "comment": "#comment",
+            "tech_icon": [
+                {
+                    "img_icon": "15_FlPFp7PeDddpDCTsrRnjnaLUdaFS9r"
+                }
+            ],
+            "details": "https://github.com/phuchs47203/CoffeeSaleOrder_Data.git"
+        },       
+        {
+            "id": 4,
+            "project_type": 2,
+            "date": "May 13, 2024",
+            "name": "Stock Price Prediction using Marchine learning, deep learning",
+            "list_icon": [
+                {
+                    "iconName": ""
+                },
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "With the stock price dataset of 3 banks Vietcombank, BIDV, Eximbank, I collected from March 1, 2019 to March 1, 2024. I use <span>Recurent Neural Network(RNN), LSTM, GRU and N-Beats</span> algorithms to forecast stock prices. After running on all 3 datasets, I can conclude that the <span>N-Beats model is the best prediction.</span>",
+            "link_git": "https://github.com/phuchs47203/StockPricePrediction.git",
+            "video": "https://www.youtube.com/@codewithphs6702",
+            "comment": "#comment",
+            "tech_icon": [
+                {
+                    "img_icon": "1-CnCWG__58zsPYguKwwqGEpRLSkhlMSo"
+                },
+                {
+                    "img_icon": "18Guz_0MH1OAxfjMGgZnwK7Ij4yOqkaT7"
+                }
+            ],
+            "details": "https://github.com/phuchs47203/StockPricePrediction.git"
+        },
+        {
+            "id": 6,
+            "project_type": 3,
+            "date": "Dec 20, 2023",
+            "name": "Implement Redis Distributed Database System",
+            "list_icon": [
+                {
+                    "iconName": ""
+                },
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "I deployed a distributed system with Redis database management system on <span>3 separate computers</span>. Because this is NoSQL, I also found the way to handle transactions and concurrency control to be much different from SQL. I also tried the distributed configuration on <span>Docker Desktop</span> and pre-installed Redis and it didn't make much difference.",
+            "link_git": "https://youtu.be/toe81JX0LOU?si=WXYF8KP0-0uGIFGC",
+            "video": "https://youtu.be/toe81JX0LOU?si=WXYF8KP0-0uGIFGC",
+            "comment": "#comment",
+            "tech_icon": [
+                {
+                    "img_icon": "1IXA_u-A8DnN4RRGJt_a078GvDXc9ITXA"
+                },
+                {
+                    "img_icon": "1WntZwVRQui2qq1dR66xrqS-la4JwlcfK"
+                }
+            ],
+            "details": "https://portfoliophs.wordpress.com/analyst_bigsale/"
+        },
+        {
+            "id": 5,
+            "project_type": 3,
+            "date": "Nov 25, 2023",
+            "name": "Transaction and concurency control in Oracle Distributed database system   ",
+            "list_icon": [
+                {
+                    "iconName": ""
+                },
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "After implementing the distributed system on Oracle, I tested the problems that occurred when concurrency and tried to solve them using <span>Transaction</span>. I found that Oracle manages transactions and <span>concurrency control</span> very well, ensuring high data consistency.",
+            "link_git": "https://youtu.be/afZ4e-qbbRQ?si=8kyP0qHt7z369kTs",
+            "video": "https://youtu.be/afZ4e-qbbRQ?si=8kyP0qHt7z369kTs",
+            "comment": "#comment",
+            "tech_icon": [
+                {
+                    "img_icon": "1-UgBr-KrL98oS4HQAZX0VO4Pi5rYUJn3"
+                }
+            ],
+            "details": "https://youtu.be/afZ4e-qbbRQ?si=8kyP0qHt7z369kTs"
+        },
+        
+        {
+            "id": 7,
+            "project_type": 4,
+            "date": "Apr 16, 2024",
+            "name": "Spring Security - Login and registration",
+            "list_icon": [
+                {
+                    "iconName": ""
+                },
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "I created an API for logging in and registering user accounts. The methods I have implemented include logging in, registering an account, forgetting your password, and changing your password. I use <span>JWT</span> to generate session management tokens. SQL queries are done through <span>Hibernate</span> Framework.",
+            "link_git": "https://github.com/phuchs47203/spring_security_client_basic_token.git",
+            "video": "https://www.youtube.com/@codewithphs6702",
+            "comment": "#comment",
+            "tech_icon": [
+                {
+                    "img_icon": "19P9d4ul0D82ZQkrw8C4DL0tlrqrJ1N2N"
+                },
+                {
+                    "img_icon": "10cM_Ix2qmZSCNZCHaozAvf0yCJbYYmlv"
+                },
+                {
+                    "img_icon": "1a5H6i0oVdfIxsA9VUTtVMoTHhXoAqIfb"
+                },
+                {
+                    "img_icon": "1if76twI87LS-QG-fhjqvaHNciZiZrmjr"
+                }
+            ],
+            "details": "https://github.com/phuchs47203/spring_security_client_basic_token.git"
+        },
+        {
+            "id": 8,
+            "project_type": 5,
+            "date": "Dec 20, 2023",
+            "name": "Helmerts Ecommerce Website",
+            "list_icon": [
+                {
+                    "iconName": ""
+                },
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "This is an e-commerce website building project that I have been working on for more than 2 months. I perform <span>system design analysis</span> and build operating procedures similar to actual sales. <span>Users</span> can view products, add to cart and place orders. And the system has an order confirmation <span>Manager</span>, manage shipper; And the <span>Shipper</span> will be the one who directly delivers and manages the status of the orders he or she is in charge of. In addition, I also built a <span>Virtual AI Chatbot</span> that takes the API provided from ChatGPT to answer user questions.",
+            "link_git": "https://github.com/phuchs47203/helmerts-phs-ec-be.git",
+            "video": "https://drive.google.com/file/d/1CG7Xl1yOXmbBqsReIzbl-UGSR_KdK2hV/view?usp=sharing",
+            "comment": "#comment",
+            "tech_icon": [
+                {
+                    "img_icon": "1uPZMVmS9uzibExwBU0Tz2hYtJJ7oAibH"
+                },
+                {
+                    "img_icon": "1OkUUwmu_VA_os-wm2Ey-szPM_se5_Y4c"
+                },
+                {
+                    "img_icon": "1MeoVD3eEJ8Gn0gnP35cwc4qzJVAIEiZs"
+                }
+            ],
+            "details": "https://github.com/phuchs47203/helmerts-ec-phs.git"
+        },
+        {
+            "id": 9,
+            "project_type": 2,
+            "date": "May 8, 2024",
+            "name": "Covid Sentement Prediction using deep learning, non-linear regression",
+            "list_icon": [
+                {
+                    "iconName": ""
+                },
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "I use <span>Linear Regression and Nonlinear Regression (Gauss Newton)</span> algorithms to find out the dependence wearing a mask and social distancing sentement on the emotional score of the entire country of Canada. Based on these two models, I can perform emotion score prediction. In addition, I also tried applying <span>RNN, LSTM, GRU</span> algorithms to predict emotional value over time. I find that GRU is the best performer in 3 models of Neural Network.",
+            "link_git": "https://github.com/phuchs47203/CovidSentementPrediction.git",
+            "video": "https://www.youtube.com/@codewithphs6702",
+            "comment": "#comment",
+            "tech_icon": [
+                {
+                    "img_icon": "1-CnCWG__58zsPYguKwwqGEpRLSkhlMSo"
+                },
+                {
+                    "img_icon": "18Guz_0MH1OAxfjMGgZnwK7Ij4yOqkaT7"
+                }
+            ],
+            "details": "https://github.com/phuchs47203/CovidSentementPrediction.git"
+        },
+        {
+            "id": 10,
+            "project_type": 4,
+            "date": "Jun 20, 2023",
+            "name": "Employee Management - Spring Data JPA",
+            "list_icon": [
+                {
+                    "iconName": ""
+                },
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "I create APIs for the employee management database including basic operations: <span>Post, Delete, Get</span>. I tested it on my Website to make calls to those APIs, and it worked great.",
+            "link_git": "https://github.com/phuchs47203/manage_employee_basic_be.git",
+            "video": "https://www.youtube.com/@codewithphs6702",
+            "comment": "#comment",
+            "tech_icon": [                
+                {
+                    "img_icon": "10cM_Ix2qmZSCNZCHaozAvf0yCJbYYmlv"
+                },
+                {
+                    "img_icon": "19P9d4ul0D82ZQkrw8C4DL0tlrqrJ1N2N"
+                },
+                {
+                    "img_icon": "1a5H6i0oVdfIxsA9VUTtVMoTHhXoAqIfb"
+                },
+                {
+                    "img_icon": "1if76twI87LS-QG-fhjqvaHNciZiZrmjr"
+                }
+            ],
+            "details": "https://github.com/phuchs47203/manage_employee_basic_be.git"
+        },
+        {
+            "id": 11,
+            "project_type": 5,
+            "date": "Jun 10, 2023",
+            "name": "Chat GPT-3 Front End Website",
+            "list_icon": [
+                {
+                    "iconName": ""
+                },
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "I practice interface design using <span>Reactjs.</span>",
+            "link_git": "https://github.com/phuchs47203/recgpt.git",
+            "video": "https://recgpt.vercel.app/",
+            "comment": "#comment",
+            "tech_icon": [
+                {
+                    "img_icon": "1uPZMVmS9uzibExwBU0Tz2hYtJJ7oAibH"
+                }
+            ],
+            "details": "https://recgpt.vercel.app/"
+        },
+        {
+            "id": 999,
+            "project_type": 9999,
+            "date": "Dec 20, 2023",
+            "name": "Implement Redis Distributed Database System",
+            "list_icon": [
+                {
+                    "iconName": ""
+                },
+                {
+                    "iconName": ""
+                }
+            ],
+            "introduce": "I deployed a distributed system with Redis database management system on <span>3 separate computers</span>. Because this is NoSQL, I also found the way to handle transactions and concurrency control to be much different from SQL. I also tried the distributed configuration on <span>Docker Desktop</span> and pre-installed Redis and it didn't make much difference.",
+            "link_git": "https://youtu.be/toe81JX0LOU?si=WXYF8KP0-0uGIFGC",
+            "video": "https://youtu.be/toe81JX0LOU?si=WXYF8KP0-0uGIFGC",
+            "comment": "#comment",
+            "tech_icon": [
+                {
+                    "img_icon": "1IXA_u-A8DnN4RRGJt_a078GvDXc9ITXA"
+                },
+                {
+                    "img_icon": "1WntZwVRQui2qq1dR66xrqS-la4JwlcfK"
+                }
+            ],
+            "details": "https://portfoliophs.wordpress.com/analyst_bigsale/"
+        }
+    ]
+}

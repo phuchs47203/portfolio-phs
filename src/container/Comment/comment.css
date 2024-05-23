@@ -74,7 +74,7 @@
     font-family: var(--font-family);
     font-weight: 100;
     font-size: 12px;
-    color: rgb(242, 95, 95);
+    color: rgb(238, 161, 142);
     margin-top: -0.3rem;
     margin-bottom: 0.8rem;
     padding-left: 0.5rem;
@@ -85,7 +85,7 @@
     font-family: var(--font-family);
     font-weight: 100;
     font-size: 13px;
-    color: rgb(82, 207, 61);
+    color: rgb(139, 218, 125);
     margin-top: -0.3rem;
     margin-bottom: 0.8rem;
 }

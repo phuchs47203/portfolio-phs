@@ -32,7 +32,7 @@ const Achievement = () => {
             <div className='pflo__achiev-content'>
                 {
                     achieDATA.map((item, index) =>
-                        <Feature logoURL={item.logourl} text={item.text} linkDemonstrate={item.linkDemonstrate} />
+                        <Feature logoURL={item.logourl} text={item.text} linkDemonstrate={item.linkDemonstrate} key={index}/>
                     )
                 }
             </div>

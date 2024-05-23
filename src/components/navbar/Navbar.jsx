@@ -15,8 +15,8 @@ const Navbar = () => {
             </div>
             {/* bonus   'experience' and 'achievement-certificate'  */}
             <ul className='pflo__navbar-links'>
-                {['home', 'about', 'skills', 'portfolio', 'achievement', 'comment', 'contact'].map((item) => (
-                    <li className='pflo__flex p-text' key={`link-$item`}>
+                {['home', 'about', 'skills', 'portfolio', 'achievement', 'comment', 'contact'].map((item,index) => (
+                    <li className='pflo__flex p-text' key={index}>
                         <div />
                         <a href={`#${item}`}>{item}</a>
                     </li>

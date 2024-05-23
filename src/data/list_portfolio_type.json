@@ -1,0 +1,82 @@
+{
+    "dataPortfolioType": [
+        {
+            "type": 1,
+            "name": "Front End & Full Stack",
+            "description": "",
+            "icons": [
+                {
+                    "linkIcon": ""
+                },
+                {
+                    "linkIcon": ""
+                }
+            ]
+        },
+        {
+            "type": 2,
+            "name": "Back End (Spring Boot - Laravel)",
+            "description": "",
+            "icons": [
+                {
+                    "linkIcon": ""
+                },
+                {
+                    "linkIcon": ""
+                }
+            ]
+        },
+        {
+            "type": 3,
+            "name": "Data Analysis - Data Warehouse",
+            "description": "",
+            "icons": [
+                {
+                    "linkIcon": ""
+                },
+                {
+                    "linkIcon": ""
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "name": "Data Analysis With Marchine Learning",
+            "description": "",
+            "icons": [
+                {
+                    "linkIcon": ""
+                },
+                {
+                    "linkIcon": ""
+                }
+            ]
+        },
+        {
+            "type": 5,
+            "name": "Distributed Database System",
+            "description": "",
+            "icons": [
+                {
+                    "linkIcon": ""
+                },
+                {
+                    "linkIcon": ""
+                }
+            ]
+        },
+        {
+            "type": 5,
+            "name": "Apps",
+            "description": "",
+            "icons": [
+                {
+                    "linkIcon": ""
+                },
+                {
+                    "linkIcon": ""
+                }
+            ]
+        }
+    ]
+}

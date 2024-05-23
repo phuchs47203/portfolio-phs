@@ -37,7 +37,9 @@ import laravel from '../assets/laravel.png';
 import redis from '../assets/redis.png';
 import helmerts_fe from '../assets/helmerts-ecommerce.png';
 import helmerts_be from '../assets/helmerts_be.jpg';
-
+import power_bi from '../assets/powerBI.png';
+import python from '../assets/python.png';
+import jupyter from '../assets/Jupyter_logo.svg.png';
 export default {
     score,
     scholarship,
@@ -77,5 +79,8 @@ export default {
     laravel,
     redis,
     helmerts_fe,
-    helmerts_be
+    helmerts_be,
+    power_bi,
+    python,
+    jupyter
 }

@@ -5,6 +5,7 @@
     align-items: center;
     // padding: 1rem 2rem;
     background: rgb(146, 139, 139);
+    background: rgb(63, 79, 105);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     // border: 1px solid rgba(255, 255, 255, 0.18);
@@ -84,10 +85,13 @@
             &:hover {
                 color: rgb(19, 85, 161);
                 color: var(--color-bg);
+                color: rgb(162, 240, 236);
             }
             &:focus {
                 color: rgb(19, 85, 161);
                 color: var(--color-bg);
+                color: rgb(162, 240, 236);
+
             }
         }
         // &:hover {

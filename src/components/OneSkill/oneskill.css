@@ -5,8 +5,8 @@
 }
 
 .pflo_oneskill img {
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: 80px;
     object-fit: contain;
 }
 
@@ -66,7 +66,8 @@
 
 
 .pflo_oneskill-content p {
-    color: rgb(100, 211, 207);
+    /* color: rgb(100, 211, 207); */
+    color: var(--color-p2);
     font-family: var(--font-family);
     font-size: 20px;
     line-height: 30px;
@@ -77,9 +78,9 @@
 }
 
 @media screen and (max-width: 990px) {
-    .pflo_oneskill img {
-        width: 80px;
-        height: 80px;
+    .pflo_oneskill img {        
+        width: auto;
+        height: 60px;
     }
 
     .close-icon {
@@ -106,11 +107,10 @@
 }
 
 @media screen and (max-width: 600px) {
-    .pflo_oneskill img {
-        width: 70px;
-        height: 70px;
+    .pflo_oneskill img {        
+        width: auto;
+        height: 40px;
     }
-
     .close-icon {
         width: 70px;
         height: 70px;

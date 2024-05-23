@@ -12,7 +12,9 @@ body {
     -webkit-background-clop: text;
     -webkit-text-fill-color: transparent;
 } */
-
+.gradient_background {
+    background: radial-gradient(circle at 10% 21%, rgba(20, 60, 103, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}
 .App {
     background-color: var(--color-bg);
     font-family: var(--font-base);
@@ -20,6 +22,83 @@ body {
 
 .section__margin {}
 
+
+
+.fall-in-left {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: fallInLeft 0.5s ease-in forwards;
+}
+
+@keyframes fallInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fallInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fall-in-up {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: fallInUp 0.2s ease-in forwards;
+}
+
+.fall-in-right {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: fallInRight 0.3s ease-in forwards;
+}
+
+@keyframes fallInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.3s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 .scale-up-center {
     -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -48,43 +127,6 @@ body {
         transform: scale(1);
     }
 }
-
-.fall-in-left {
-    opacity: 0;
-    transform: translateX(-100%);
-    animation: fallInLeft 0.5s ease-in forwards;
-}
-
-@keyframes fallInLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.fall-in-right {
-    opacity: 0;
-    transform: translateX(100%);
-    animation: fallInRight 0.3s ease-in forwards;
-}
-
-@keyframes fallInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(100%);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
 .gradient__text {
     background: var(--gradient-text);
     background-clip: text;
@@ -116,9 +158,13 @@ body {
 
 .bg_about {
     background: url('../src/assets/bgWhite.png');
-    background-color: rgb(157, 178, 192);
+    /* background-color: rgb(157, 178, 192); */
     /* background-size: auto; */
+    
     padding: 0 6rem;
+    grid-gap: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 990px) {
@@ -131,9 +177,10 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .bg_about {
         padding: 0 1rem;
+        grid-gap: 1rem;
     }
 
     .section__padding {
