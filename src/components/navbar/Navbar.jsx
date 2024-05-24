@@ -29,7 +29,7 @@ const Navbar = () => {
                 }
 
                 {toggle && (
-                    <div className='fall-in-right'>
+                    <div className='fade-in'>
                         <HiX onClick={() => setToggle(false)} />
                         <ul >
                             {['home', 'about', 'skills', 'portfolio', 'achievement', 'comment', 'contact'].map((item) => (
