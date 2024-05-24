@@ -60,7 +60,7 @@ body {
 .fall-in-right {
     opacity: 0;
     transform: translateX(100%);
-    animation: fallInRight 0.3s ease-in forwards;
+    animation: fallInRight 0.2s ease-in forwards;
 }
 
 @keyframes fallInRight {
@@ -91,6 +91,30 @@ body {
 }
 
 @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.fade-in2 {
+    opacity: 0;
+    animation: fadeIn2 0.15s ease-in forwards;
+}
+
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn2 {
     0% {
         opacity: 0;
     }
