@@ -2,6 +2,8 @@
     cursor: pointer;
     justify-content: center;
     align-items: center;
+    width: 80px;
+   
 }
 
 .pflo_oneskill img {
@@ -11,10 +13,10 @@
 }
 
 .close-icon {
-    width: 100px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 85px;
     justify-content: center;
     align-items: center;
 }
@@ -78,18 +80,20 @@
 }
 
 @media screen and (max-width: 990px) {
+    .pflo_oneskill {
+        width: 70px;
+    }
     .pflo_oneskill img {        
         width: auto;
         height: 60px;
     }
 
     .close-icon {
-        width: 80px;
-        height: 80px;
+        width: auto;
+        height: 60px;
+        
     }
-
     .pflo_oneskill-content {
-        /* margin: 0rem 1rem; */
         margin-top: -1rem;
     }
 
@@ -98,27 +102,27 @@
         justify-content: center;
     }
 
-    /* .pflo_oneskill-content{
-        left: 0;
-        right: 0;
-        margin: 0rem 6rem;
-    } */
 
 }
 
 @media screen and (max-width: 600px) {
-    .pflo_oneskill img {        
-        width: auto;
+    .close-icon {
+        width: 50px;
         height: 40px;
     }
-    .close-icon {
-        width: 70px;
-        height: 70px;
-    }
-
     .close-icon svg {
         width: 30px;
         height: 30px;
+        margin-bottom: 1rem;
+
+    }
+    .pflo_oneskill {
+        width: 40px;
+        height: 40px;
+    }
+    .pflo_oneskill img {        
+        width: auto;
+        height: 40px;
     }
 
     .pflo_oneskill-content {
