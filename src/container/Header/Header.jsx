@@ -10,7 +10,7 @@ const Header = () => {
         <div className='pflo__header' id='home'>
             <div className='pflo__header-content'>
                 <h1 className='gradient__text'>Hi there ! My name is Phuc Tran Hoang</h1>
-                <p>I'm a fresher looking for part-time or full-time job as a Data Analyst, Data Engineer, Database Administrator,  JAVA Developer (Springboot), Full Stack Developer (Laravel-Reactjs).</p>
+                <p>I'm a fresher looking for full-time job as a Data Analyst, Data Engineer, Database Administrator, Back End JAVA Developer (Springboot)</p>
                 <div className='pflo__header-content-links'>
                     <a href="https://www.linkedin.com/in/tran-hoang-phuc-685486245/">
                         <ImLinkedin />
